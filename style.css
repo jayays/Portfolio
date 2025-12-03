@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background: #f9f5ff;
+    color: #444;
+    transition: 0.3s;
+}
+.dark {
+    background: #1a1a1a;
+    color: #eee;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background: #ffe8f8;
+    position: sticky;
+    top: 0;
+}
+.dark nav {
+    background: #333;
+}
+.logo span {
+    color: #ff7ac0;
+}
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+.hero {
+    background: linear-gradient(135deg, #ffd9f3, #d6e1ff);
+    padding: 120px 20px;
+}
+.profile-pic {
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 12px 25px;
+    background: #ffb3dd;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.dark .btn {
+    background: #ff7ac0;
+}
+footer {
+    background: #ffe8f8;
+    padding: 18px;
+    text-align: center;
+}
+.dark footer {
+    background: #222;
+}
